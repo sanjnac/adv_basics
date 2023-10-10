@@ -8,7 +8,7 @@ class StartScreen extends StatelessWidget{
   {
     return  Center(
       child:Column(
-        mainAxisSize:MainAxisSize.min ,
+       mainAxisAlignment: MainAxisAlignment.center ,
         children:[
         // ignore: unnecessary_string_escapes
         Image.asset('assets/images/quiz-logo.png',
