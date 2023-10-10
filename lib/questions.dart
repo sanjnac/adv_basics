@@ -14,6 +14,22 @@ class _Question extends State<Question>
   @override
   Widget build(contect)
   {
-    return const Text('Question Screen');
+    return Column(children:[
+      const Text('The question....'),
+      const SizedBox(height: 30),
+      ElevatedButton(
+        onPressed: () {},
+         child:const Text('Answer 1'),
+          ),
+          ElevatedButton(
+        onPressed: () {},
+         child:const Text('Answer 2'),
+          ),
+          ElevatedButton(
+        onPressed: () {},
+         child:const Text('Answer 3'),
+          ),
+    ],
+    );
   }
 }
