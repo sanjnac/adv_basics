@@ -19,7 +19,9 @@ class _Question extends State<Question>
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children:[
-        const Text('The question....'),
+        const Text('The question....',style: TextStyle(
+          color: Colors.white,
+        ),),
         const SizedBox(height: 30),
         ElevatedButton(
           onPressed: () {},
