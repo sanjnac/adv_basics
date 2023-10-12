@@ -25,10 +25,14 @@ class _Question extends State<Question>
         const SizedBox(height: 30),
         ElevatedButton(
           onPressed: () {},
+          style: ElevatedButton.styleFrom(
+            foregroundColor: Colors.white,
+          ),
            child:const Text('Answer 1'),
             ),
             ElevatedButton(
-          onPressed: () {},
+           const onPressed: () 
+           {},
            child:const Text('Answer 2'),
             ),
             ElevatedButton(
