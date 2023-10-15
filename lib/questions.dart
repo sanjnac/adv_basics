@@ -19,26 +19,16 @@ class _Question extends State<Question>
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children:[
-        const Text('The question....',style: TextStyle(
+        const Text('The question....',
+        style: TextStyle(
           color: Colors.white,
-        ),),
+        ),
+        ),
         const SizedBox(height: 30),
-        ElevatedButton(
-          onPressed: () {},
-          style: ElevatedButton.styleFrom(
-            foregroundColor: Colors.white,
-          ),
-           child:const Text('Answer 1'),
-            ),
-            ElevatedButton(
-           const onPressed: () 
-           {},
-           child:const Text('Answer 2'),
-            ),
-            ElevatedButton(
-          onPressed: () {},
-           child:const Text('Answer 3'),
-            ),
+        Answer(),
+        Answer(),
+        Answer(),
+
       ],
       ),
     );
