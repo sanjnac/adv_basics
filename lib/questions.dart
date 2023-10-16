@@ -34,3 +34,6 @@ class _Question extends State<Question>
     );
   }
 }
+
+class Answer {
+}
