@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import 'package:adv_basics/answers.dart';
+
 class Question extends StatefulWidget{
   const Question({super.key});
   @override
@@ -25,9 +27,18 @@ class _Question extends State<Question>
         ),
         ),
         const SizedBox(height: 30),
-        Answer(),
-        Answer(),
-        Answer(),
+        AnswerButton(
+          answerText: 'Answer 1 ',
+         onTap: () {},
+         ),
+        AnswerButton(
+          answerText: 'Answer 2',
+         onTap: () {},
+         ),
+        AnswerButton(
+          answerText: 'Answer 3',
+         onTap: () {},
+         ),
 
       ],
       ),
