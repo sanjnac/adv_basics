@@ -39,6 +39,10 @@ class _Question extends State<Question>
           answerText: 'Answer 3',
          onTap: () {},
          ),
+          AnswerButton(
+          answerText: 'Answer 3',
+         onTap: () {},
+         ),
 
       ],
       ),
