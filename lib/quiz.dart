@@ -1,8 +1,8 @@
 
-// ignore_for_file: library_private_types_in_public_api
 
-import 'package:adv_basics/questions.dart';
+
 import 'package:flutter/material.dart';
+import 'package:adv_basics/questions.dart';
 import 'package:adv_basics/start_screen.dart';
 
  class Quiz extends  StatefulWidget {
@@ -10,8 +10,10 @@ import 'package:adv_basics/start_screen.dart';
   
 
   @override
-  _QuizState createState() => _QuizState();
-}
+ State<Quiz> createState() {
+    return _QuizState();
+  }
+ }
 class _QuizState extends State<Quiz>
 {
  var activeScreen='start-screen';
@@ -28,7 +30,7 @@ class _QuizState extends State<Quiz>
     Widget screenWidget = StartScreen(switchScreen);
     if (activeScreen=='question-screen')
     {
-      screenWidget = const Question();
+      screenWidget = const QuestionsScreen();
     }
 
     return MaterialApp(

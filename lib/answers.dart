@@ -4,7 +4,7 @@ class AnswerButton extends StatelessWidget {
   final String answerText;
   final VoidCallback onTap; // Change 'void function() onTap' to 'VoidCallback onTap'
 
-  AnswerButton({
+  const AnswerButton({
     Key? key, // Use 'Key?' instead of 'super.key'
     required this.answerText,
     required this.onTap,
@@ -19,7 +19,7 @@ class AnswerButton extends StatelessWidget {
           vertical: 10,
           horizontal: 40,
         ),
-        backgroundColor: Color(0xFF7A5A80), // Use 'Color(0xFF7A5A80)' to define a color
+        backgroundColor: const Color(0xFF7A5A80), // Use 'Color(0xFF7A5A80)' to define a color
         foregroundColor: Colors.white,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(40),
